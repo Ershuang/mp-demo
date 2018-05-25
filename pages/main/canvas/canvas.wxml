@@ -1,0 +1,11 @@
+<!--pages/main/canvas/canvas.wxml-->
+<view class="container">
+    <canvas  canvas-id='first' bindlongtap='saveImage' style='width:330px;height:700px;'></canvas>
+    <view class="bg_btn" >
+        <block wx:for="{{ poster}}" wx:key="{{id}}" wx:for-item="item">
+        <view class="bg_picker" bindtap='picker' data-index="{{item.id}}"><image src="{{item.url}}" style='width:150rpx;height:150rpx;'></image></view>
+        </block>
+    </view>        
+</view>
+
+

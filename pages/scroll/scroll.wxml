@@ -1,0 +1,12 @@
+<!--pages/scroll/scroll.wxml-->
+<view class="box">
+    <view class='drop' style='left:{{left}}px;top:{{top}}px;' bindtouchmove = 'viewTouchMove'>
+        
+    </view>
+    <form>
+        <input type='text' name='text' placeholder="请输入编辑文字" bindblur='gain'></input>
+    </form>
+    <movable-area>
+      <movable-view class="max" direction="all"><canvas  canvas-id='text' style='width:330px;height:300px;background-color:pink'></canvas></movable-view>
+    </movable-area>
+</view>

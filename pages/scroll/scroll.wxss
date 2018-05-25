@@ -1,0 +1,26 @@
+/* pages/scroll/scroll.wxss */
+input{
+    border:1rpx solid #ccc;
+}
+movable-view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100rpx;
+  width: 100rpx;
+  background: #1AAD19;
+  color: #fff;
+}
+
+movable-area {
+  height: 400rpx;
+  width: 400rpx;
+  margin: 50rpx;
+  background-color: #ccc;
+  overflow: hidden;
+}
+
+.max {
+  width: 600rpx;
+  height: 600rpx;
+}

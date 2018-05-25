@@ -1,0 +1,6 @@
+<!--components/card/card.wxml-->
+<view class="card_container">
+    <view class="card_img"></view>
+    <view class="card_title">{{title}}</view>
+    <view class="card_text">{{text}}</view>
+</view>
